@@ -1,0 +1,541 @@
+.about-us {
+  height: 650vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 200px;
+  background-color: rgb(221, 230, 233);
+  overflow-x: hidden;
+}
+.about-us h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 100%;
+  background-color: rgb(71, 53, 91);
+  color: #fff;
+  font-weight: 900;
+  font-size: 4rem;
+  /* color: rgb(71, 68, 68); */
+  text-align: center; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0px; /* Add padding to text */
+  transition: background-color 0.3s, color 0.3s;
+}
+.about-us-upper {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(221, 230, 233);
+  height: 100vh;
+  width: 100%;
+  padding: 100px 0;
+  padding-left: 50px;
+}
+.about-upper-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.about-upper-text h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.about-upper-text p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.about-us-upper img {
+  width: 50vw;
+}
+.about-us-2-div {
+  display: flex;
+  padding: 60px 0;
+  padding-right: 50px;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(221, 230, 233);
+  height: 110vh;
+}
+.about-us-2-div img {
+  width: 50vw;
+}
+.about-us-2-div-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.about-us-2-div-text h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.about-us-2-div-text p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.about-us-3-div {
+  display: flex;
+  padding: 80px 0;
+  padding-left: 50px;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: purple; */
+  height: 106vh;
+}
+.about-us-3-div-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.about-us-3-div-text h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.about-us-3-div-text ol {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.about-us-3-div img {
+  width: 50vw;
+}
+.about-us-4-div {
+  display: flex;
+  padding: 60px 0;
+  padding-right: 50px;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: brown; */
+  height: 100vh;
+}
+.about-us-4-div img {
+  width: 50vw;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.about-us-4-div-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.about-us-4-div-text h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.about-us-4-div-text p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.join-us-div {
+  display: flex;
+  padding: 60px 150px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+  height: 50vh;
+}
+.join-us-div-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.join-us-div-text h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: center; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.join-us-div-text p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+  text-align: center;
+}
+.join-us-cards {
+  width: 100%;
+  display: flex;
+  padding: 0 50px;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: pink;/ */
+  height: 80vh;
+}
+.join-us-teacher-card {
+  background-color: #fff;
+  width: 400px;
+  height: 400px;
+  margin: 10px 20px;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(241, 241, 241);
+  cursor: pointer;
+  border-radius: 13px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+}
+.join-us-teacher-card img {
+  width: 8vw;
+  padding: 10px 0;
+}
+.join-us-teacher-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.join-us-teacher-text h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: center; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.join-us-teacher-text p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+  text-align: center;
+}
+.join-us-student-card {
+  background-color: #fff;
+  width: 400px;
+  height: 400px;
+  margin: 10px 20px;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(241, 241, 241);
+  cursor: pointer;
+  border-radius: 13px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.join-us-student-card img {
+  width: 7vw;
+  padding: 10px 0;
+}
+.join-us-student-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.join-us-student-text h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: center; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.join-us-student-text p {
+  /* font-weight: lighter; */
+  line-height: 35px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+  text-align: center;
+}
+.join-us-btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+.join-us-btn {
+  padding: 15px 25px;
+  background-color: transparent;
+  border: 1px solid rgb(235, 232, 232);
+  border-radius: 5px;
+  color: rgb(71, 68, 68);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+}
+.join-us-btn:hover {
+  background-color: #82c5f1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1rem;
+  border: 1px solid transparent;
+  transition: ease 0.5s;
+}
+@media (max-width: 767px) {
+  .about-us {
+    padding-bottom: 500px;
+    height: 822vh;
+  }
+  .about-us h1 {
+    font-size: 3rem;
+  }
+  .about-us-upper {
+    display: block;
+    height: 120vh;
+  }
+  .about-upper-text {
+    display: block;
+    width: 90%;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .about-upper-text h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .about-us-upper img {
+    display: block;
+    width: 100%;
+  }
+  .about-us-2-div {
+    display: block;
+    padding: 100px 0 200px 0;
+  }
+  .about-us-2-div-text {
+    display: block;
+    width: 98%;
+    padding: 50px 5px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .about-us-2-div-text h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .about-us-2-div img {
+    display: block;
+    width: 100%;
+  }
+  .about-us-3-div {
+    display: block;
+    padding: 100px 0 250px 0;
+  }
+  .about-us-3-div-text {
+    display: block;
+    width: 80%;
+    padding: 50px 5px;
+    margin: 20px auto;
+    text-align: left;
+  }
+  .about-us-3-div-text h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .about-us-3-div img {
+    display: none;
+    width: 100%;
+  }
+  .about-us-4-div {
+    display: block;
+    padding: 100px 0 300px 0;
+  }
+  .about-us-4-div-text {
+    display: block;
+    width: 98%;
+    padding: 50px 5px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .about-us-4-div-text h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .about-us-4-div img {
+    display: block;
+    width: 100%;
+    margin: 180px 0 50px 0;
+  }
+  .about-us-5-div {
+    display: block;
+    padding: 100px 0 400px 0;
+  }
+  .about-us-5-div-text {
+    display: block;
+    width: 100%;
+    padding: 50px 10px;
+    margin: 20px 0;
+  }
+  .about-us-5-div img {
+    display: block;
+    width: 100%;
+  }
+  .join-us-div {
+    display: block;
+    padding: 200px 0 150px 0;
+  }
+  .join-us-div-text {
+    display: block;
+    width: 98%;
+    padding: 50px 5px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .join-us-div-text h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .join-us-cards {
+    display: block;
+  }
+  .join-us-teacher-card {
+    width: 200px;
+    height: 200px;
+    margin: 10px 20px;
+    padding: 95px;
+  }
+  .join-us-teacher-text h2 {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .join-us-teacher-text p {
+    font-size: 1rem;
+    padding: 0 5px;
+  }
+  .join-us-teacher-card img {
+    width: 10vw;
+  }
+  .join-us-student-card {
+    width: 200px;
+    height: 200px;
+    margin: 10px 20px;
+    padding: 95px;
+  }
+  .join-us-student-text h2 {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .join-us-student-text p {
+    font-size: 1rem;
+    padding: 0 5px;
+  }
+  .join-us-student-card img {
+    padding: 0;
+  }
+}
+@media (max-width: 430px) {
+  .about-us {
+    height: 735vh;
+  }
+  .join-us-teacher-card {
+    width: 170px;
+    height: 180px;
+    margin: 10px 0px;
+    padding: 105px;
+  }
+  .about-us-4-div img {
+    display: block;
+    width: 100%;
+    margin: 300px 0 50px 0;
+  }
+  .about-us-4-div {
+    display: block;
+    padding: 100px 0 100px 0;
+  }
+  .join-us-student-card {
+    width: 170px;
+    height: 180px;
+    margin: 10px 0px;
+    padding: 105px;
+  }
+}
+@media (max-height: 767px) and (max-width: 430px) {
+  .about-us {
+    height: 6075px;
+  }
+  .about-us-4-div img {
+    display: block;
+    width: 100%;
+    margin: 500px 0 150px 0;
+  }
+  .about-us-2-div {
+    display: block;
+    padding: 100px 0 100px 0;
+  }
+  .about-us-4-div {
+    display: block;
+    padding: 100px 0 100px 0;
+  }
+  .about-us-4-div {
+    margin-bottom: 600px;
+  }
+  .join-us-div {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 361px){
+  .about-us {
+    height: 6475px;
+  }
+}

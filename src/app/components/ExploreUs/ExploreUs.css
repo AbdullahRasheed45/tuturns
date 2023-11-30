@@ -1,0 +1,139 @@
+.explore-main-div {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: 50px 20px;
+  padding-bottom: 200px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.img-div {
+  position: relative;
+}
+.text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  gap: 20px;
+}
+.text-div h1 {
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: rgb(142, 140, 140);
+  font-style: oblique;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.text-div h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.text-div p {
+  line-height: 30px;
+  word-spacing: 2px;
+  font-size: 1rem;
+  color: rgb(76, 76, 76);
+}
+.exploreUs-image {
+
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+
+  background-image: linear-gradient(
+    rgba(74, 104, 169, 0.324),
+    rgba(52, 25, 25, 0.5)
+  );
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exploreUs-image {
+  height: 597px;
+  width: 100%;
+  /* border-radius: 40%; */
+}
+.explore-btn {
+  padding: 15px 25px;
+  background-color: transparent;
+  border: 1px solid rgb(110, 99, 99);
+  color: rgb(76, 76, 76);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.explore-btn:hover {
+  background-color: #09456f;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1rem;
+  border: 2px solid white;
+  transition: ease 0.5s;
+}
+@media (max-width: 768px) {
+  .explore-main-div {
+    /* margin: 0; */
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .text-div {
+    width: 95%;
+    margin: auto;
+    gap: 35px;
+    padding: 0;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  .text-div h2 {
+    padding: 5px;
+    text-align: center;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .text-div h1 {
+    width: 95%;
+    padding: 5px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-div p {
+    width: 95%;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .exploreUs-image {
+    margin: 0;
+    height: 617px;
+    /* padding: 5px; */
+    /* padding-top: 20px; */
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+/* @media (max-width: 430px) {
+  .explore-main-div {
+    padding-top: 100px;
+  } */

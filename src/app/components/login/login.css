@@ -1,0 +1,279 @@
+.login-div-main {
+  width: 100%;
+  min-height: 120vh;
+  display: flex;
+  align-items: flex-start;
+}
+.login-div-2 {
+  position: relative;
+  top: 0.25rem;
+  width: 50%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+}
+.image-class {
+  width: 100%;
+  height: 100vh;
+  border-radius: 50%;
+}
+.login-div-3 {
+  width: 50%;
+  height: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.25rem;
+  padding-top: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-div-3-h1 {
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #060606;
+  font-weight: 600;
+  text-align: left;
+}
+.login-div-4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+.login-div-4-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+.login-div-4-1-h3 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  color: #060606;
+  margin-bottom: 0.5rem;
+}
+.login-div-4-1-p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #060606;
+  margin-bottom: 0.5rem;
+}
+.login-input {
+  width: 100%;
+  color: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 1.5px;
+  padding-top: 0.5rem /* 8px */;
+  padding-bottom: 0.5rem /* 8px */;
+  margin-top: 0.5rem /* 8px */;
+  margin-bottom: 0.5rem /* 8px */;
+  background-color: transparent;
+
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.login-input:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.login-input-span {
+  --tw-text-opacity: 1;
+  color: rgb(244 63 94 / var(--tw-text-opacity));
+}
+.login-div-4-1-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.login-div-5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-div-5-1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.login-div-5-1-p {
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+}
+.login-div-5-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem /* 16px */;
+  margin-bottom: 1rem /* 16px */;
+}
+.login-div-5-btn {
+  width: 100%;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  margin-top: 0.5rem /* 8px */;
+  margin-bottom: 0.5rem /* 8px */;
+  font-weight: 600;
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 6 6 / var(--tw-bg-opacity));
+  border-radius: 0.375rem /* 6px */;
+  padding: 1rem /* 16px */;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.login-div-5-btn:hover{
+  background-color: white;
+  color: black
+}
+.login-div-5-btn-signup {
+  width: 100%;
+  --tw-text-opacity: 1;
+  color: rgb(6 6 6 / var(--tw-text-opacity));
+  margin-top: 0.5rem /* 8px */;
+  margin-bottom: 0.5rem /* 8px */;
+  font-weight: 600;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  border-radius: 0.375rem /* 6px */;
+  padding: 1rem /* 16px */;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.login-div-5-btn-signup:hover{
+  background-color: black;
+  color: white;
+}
+.login-div-6 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 0.5rem /* 8px */;
+  padding-bottom: 0.5rem /* 8px */;
+}
+.login-div-6-1 {
+  width: 100%;
+  height: 1px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.login-div-6-1-p {
+  font-size: 1.125rem /* 18px */;
+  line-height: 1.75rem /* 28px */;
+  position: absolute;
+  bottom: -5px;
+  color: rgb(0 0 0 / 0.8);
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+.login-div-6-btn {
+  width: 100%;
+  --tw-text-opacity: 1;
+  color: rgb(6 6 6 / var(--tw-text-opacity));
+  margin-top: 0.5rem /* 8px */;
+  margin-bottom: 0.5rem /* 8px */;
+  font-weight: 600;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  border-width: 1px;
+  border-color: rgb(0 0 0 / 0.4);
+  border-radius: 0.375rem /* 6px */;
+  padding: 0.75rem /* 12px */;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.login-div-6-icon-1 {
+  height: 2rem /* 32px */;
+  margin-right: 0.5rem /* 8px */;
+  width: 50px;
+}
+.login-div-6-2 {
+  width: 100%;
+  --tw-text-opacity: 1;
+  color: rgb(6 6 6 / var(--tw-text-opacity));
+  margin-top: 0.5rem /* 8px */;
+  margin-bottom: 0.5rem /* 8px */;
+  font-weight: 600;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  border-width: 1px;
+  border-width: 1px;
+  border-radius: 0.375rem /* 6px */;
+  padding: 0.75rem /* 12px */;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.login-div-6-2-icon {
+  height: 1.5rem /* 24px */;
+  margin-right: 0.5rem /* 8px */;
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
+  border-radius: 0.25rem /* 4px */;
+}
+.login-div-7 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-div-7-p {
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(6 6 6 / var(--tw-text-opacity));
+}
+.login-div-7-span {
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .login-div-2 {
+    display: none;
+  }
+  .login-div-3 {
+    width: 100%;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .login-div-3 {
+    width: 100vw;
+  }
+}

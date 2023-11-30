@@ -1,0 +1,698 @@
+.serve-main-div {
+  height: 1070vh;
+  width: 100%;
+  padding-bottom: 100px;
+}
+.mob-show {
+  display: none;
+}
+.serve-main-div h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 100%;
+  background-color: rgb(71, 53, 91);
+  color: #fff;
+  font-weight: 900;
+  font-size: 3rem;
+  /* color: rgb(71, 68, 68); */
+  text-align: center; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 3px; /* Add letter spacing */
+  padding: 10px 0px; /* Add padding to text */
+  transition: background-color 0.3s, color 0.3s;
+}
+.serve-div-1 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(221, 230, 233);
+  height: 80vh;
+  padding: 60px 0;
+  padding-left: 50px;
+}
+.serve-text-div1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.serve-text-div1 h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.serve-text-div1 p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.serve-div-1 img {
+  width: 50vw;
+}
+.serve-btn {
+  padding: 15px 25px;
+  background-color: transparent;
+  border: 1px solid rgb(110, 99, 99);
+  color: rgb(76, 76, 76);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.serve-btn:hover {
+  background-color: #4caeef;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1rem;
+  border: 2px solid white;
+  transition: ease 0.5s;
+}
+.serve-div-2 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(221, 230, 233); */
+  height: 100vh;
+  padding: 80px 0;
+  padding-right: 50px;
+}
+.serve-text-div2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.serve-text-div2 h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.serve-text-div2 p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.serve-div-2 img {
+  width: 50vw;
+}
+/* DIV 3 */
+.serve-div-3 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(221, 230, 233); */
+  height: 80vh;
+  padding: 80px 0;
+  padding-left: 50px;
+}
+.serve-text-div3 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.serve-text-div3 h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.serve-text-div3 p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.serve-div-3 img {
+  width: 50vw;
+  transform: scaleX(-1);
+}
+/* DIV 4 */
+.serve-div-4 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(221, 230, 233); */
+  height: 80vh;
+  padding: 80px 0;
+  padding-right: 50px;
+}
+.serve-text-div4 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.serve-text-div4 h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.serve-text-div4 p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.serve-div-4 img {
+  width: 50vw;
+}
+/* DIV 5 */
+.serve-div-5 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(221, 230, 233); */
+  height: 80vh;
+  padding: 80px 0;
+  padding-left: 50px;
+}
+.serve-text-div5 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.serve-text-div5 h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.serve-text-div5 p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.serve-div-5 img {
+  width: 50vw;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  /* transform: scaleX(-1); */
+}
+/* DIV 6 */
+.serve-div-6 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(221, 230, 233); */
+  height: 80vh;
+  padding: 80px 0;
+  padding-right: 50px;
+}
+.serve-text-div6 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.serve-text-div6 h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.serve-text-div6 p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.serve-div-6 img {
+  width: 50vw;
+}
+/* DIV 7 */
+.serve-div-7 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(221, 230, 233); */
+  height: 80vh;
+  padding: 60px 0;
+  padding-left: 50px;
+}
+.serve-text-div7 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.serve-text-div7 h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.serve-text-div7 p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.serve-div-7 img {
+  width: 50vw;
+  transform: scaleX(-1);
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+/* DIV 8 */
+.serve-div-8 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(221, 230, 233); */
+  height: 80vh;
+  padding: 80px 0;
+  padding-right: 50px;
+}
+.serve-text-div8 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.serve-text-div8 h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.serve-text-div8 p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.serve-div-8 img {
+  width: 50vw;
+}
+/* DIV 9 */
+.serve-div-9 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(221, 230, 233); */
+  height: 80vh;
+  padding: 80px 0;
+  padding-left: 50px;
+}
+.serve-text-div9 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.serve-text-div9 h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.serve-text-div9 p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.serve-div-9 img {
+  width: 50vw;
+  transform: scaleX(-1);
+}
+/* DIV 10 */
+.serve-div-10 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(221, 230, 233); */
+  height: 80vh;
+  padding: 80px 0;
+  padding-right: 50px;
+}
+.serve-text-div10 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.serve-text-div10 h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.serve-text-div10 p {
+  /* font-weight: lighter; */
+  line-height: 40px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.serve-div-10 img {
+  width: 50vw;
+}
+
+@media (max-width: 767px) {
+  .serve-main-div {
+    padding-bottom: 100px;
+    width: 100%;
+    height: 1260vh;
+    background-color: rgb(221, 230, 233);
+    /* background-color: red; */
+  }
+  .serve-main-div h1 {
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .serve-div-1 {
+    display: block;
+    margin: 0;
+    /* height: 120vh; */
+    /* margin-bottom: 100px; */
+  }
+  .serve-text-div1 {
+    display: block;
+    width: 95%;
+    margin: 0;
+    padding: 0 5px 0 0;
+
+    /* text-align: center; */
+  }
+  .serve-text-div1 h2 {
+    width: 100%;
+    /* text-align: center; */
+    padding-bottom: 20px;
+  }
+  .serve-div-1 img {
+    display: none;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+  }
+  /* div10 */
+  .serve-div-10 {
+    display: block;
+    padding: 10px 0 400px 0;
+  }
+  .serve-text-div10 {
+    display: block;
+    width: 95%;
+    padding: 50px 5px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .serve-text-div10 h2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .serve-div-10 img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* div2 */
+  .serve-div-2 {
+    display: block;
+    padding: 100px 0 300px 0;
+  }
+  .serve-text-div2 {
+    display: block;
+    width: 95%;
+    padding-bottom: 20px 5px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .serve-text-div2 h2 {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+  }
+  .serve-div-2 img {
+    display: block;
+    width: 100%;
+    border-radius: 40%;
+    padding-bottom: 50px;
+  }
+  /* div3 */
+  .serve-div-3 {
+    display: block;
+    padding: 50px 0 300px 0;
+  }
+  .serve-text-div3 {
+    display: block;
+    width: 95%;
+    padding-bottom: 20px;
+    padding: 0 5px;
+    text-align: center;
+  }
+  .serve-text-div3 h2 {
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .serve-div-3 img {
+    display: block;
+    width: 100%;
+    padding: 100px 0;
+    border-radius: 50%;
+  }
+  /* div4 */
+  .serve-div-4 {
+    display: block;
+    padding: 200px 0 50px 0;
+  }
+  .serve-text-div4 {
+    display: block;
+    width: 95%;
+    padding-bottom: 20px;
+    padding: 0 5px;
+    text-align: center;
+  }
+  .serve-text-div4 h2 {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .serve-div-4 img {
+    display: none;
+    width: 100%;
+  }
+  /* div5 */
+  .serve-div-5 {
+    display: block;
+    padding: 50px 0 300px 0;
+  }
+  .serve-text-div5 {
+    display: block;
+    width: 95%;
+    text-align: center;
+    padding-bottom: 20px;
+    padding: 0 5px;
+  }
+  .serve-text-div5 h2 {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .serve-div-5 img {
+    display: block;
+    width: 100%;
+    border-radius: 40%;
+    padding: 100px 0;
+    /* border-top-left-radius: 0; */
+    /* border-bottom-left-radius: 0; */
+  }
+  /* div6 */
+  .serve-div-6 {
+    display: block;
+    padding: 100px 0 50px 0;
+  }
+  .serve-text-div6 {
+    display: block;
+    width: 95%;
+    padding-bottom: 20px;
+    padding: 0 5px;
+    text-align: center;
+  }
+  .serve-text-div6 h2 {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .serve-div-6 img {
+    display: none;
+    width: 100%;
+  }
+  /* div7 */
+  .serve-div-7 {
+    display: block;
+    padding: 50px 0 400px 0;
+  }
+  .serve-text-div7 {
+    display: block;
+    width: 95%;
+    padding-bottom: 20px;
+    padding: 0 5px;
+    text-align: center;
+  }
+  .serve-text-div7 h2 {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .serve-div-7 img {
+    display: block;
+    width: 100%;
+    padding: 100px 0;
+    border-radius: 50%;
+  }
+  /* div5 */
+  .serve-div-8 {
+    display: block;
+    padding: 250px 0 50px 0;
+  }
+  .serve-text-div8 {
+    display: block;
+    width: 95%;
+    padding-bottom: 20px;
+    padding: 0 5px;
+    text-align: center;
+  }
+  .serve-text-div8 h2 {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .serve-div-8 img {
+    display: none;
+    width: 100%;
+  }
+  /* div9 */
+  .serve-div-9 {
+    display: block;
+    padding: 0px;
+  }
+  .serve-text-div9 {
+    display: block;
+    width: 95%;
+    padding-bottom: 20px;
+    padding: 0 5px;
+    text-align: center;
+  }
+  .serve-text-div9 h2 {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .serve-div-9 img {
+    display: none;
+    width: 100%;
+  }
+  .mob-show {
+    display: block;
+    padding: 50px 0;
+  }
+  .mob-show img {
+    display: block;
+    width: 100%;
+    padding: 100px 0;
+    border-radius: 30%;
+  }
+  .serve-btn {
+    margin: 30px 0;
+  }
+  .serve-desktop {
+    display: none;
+  }
+}
+/* @media (max-width: 430px) {
+  
+} */
+@media (max-height: 767px) and (max-width: 430px) {
+  .serve-main-div {
+    padding-bottom: 100px;
+    width: 100%;
+    height: 1360vh;
+    background-color: rgb(221, 230, 233);
+    /* background-color: red; */
+  }
+}

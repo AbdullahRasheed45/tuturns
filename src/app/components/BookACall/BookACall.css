@@ -1,0 +1,169 @@
+.book-call-div {
+  height: 220vh;
+  width: 100%;
+  /* background-color: red; */
+}
+.book-call-heading-div {
+  background-color: #283637;
+  height: 23vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.book-call-heading-div h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 900;
+  padding-left: 40px;
+  letter-spacing: 1px;
+}
+.book-call-complete-div {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  /* align-items: center; */
+}
+.book-call-text-div {
+  width: 40%;
+  padding: 20px 0;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.book-call-text-div h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: rgb(71, 68, 68);
+  text-align: left; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.book-call-text-div p {
+  /* font-weight: lighter; */
+  line-height: 30px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.book-call-text-div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* font-weight: lighter; */
+  line-height: 30px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  color: rgb(76, 76, 76);
+}
+.book-call-form-div {
+  width: 40%;
+  border: 1px solid rgb(201, 198, 198);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px;
+}
+.form-formation {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+.form-group2 {
+  margin-bottom: 20px;
+}
+.red {
+  color: rgb(199, 70, 70);
+}
+.form-label {
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 18px;
+  color: #444;
+}
+.form-input,
+.form-input[type="text"],
+.form-input[type="email"],
+.form-input[type="tel"],
+.form-input[type="date"],
+.form-input[type="checkbox"] {
+  width: 150%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.form-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+.form-btn:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 1000px) {
+  
+  .book-call-div{
+    width: 100%;
+    height: 250vh;
+
+  }
+  .book-call-heading-div img{
+    display: none;
+  }
+  .book-call-heading-div{
+    /* padding: 0 20px 0 0; */
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .book-call-text-div{
+    display: none;
+  }
+  .book-call-complete-div{
+    display: block;
+    width: 100%;
+  }
+  .book-call-form-div {
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgb(201, 198, 198);
+    display: block;
+    padding: 30px 20px;
+  }
+  .form-label {
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin: 10px auto;
+  }
+  .form-input,
+.form-input[type="text"],
+.form-input[type="email"],
+.form-input[type="tel"],
+.form-input[type="date"],
+.form-input[type="checkbox"] {
+  width: 80%;
+  margin: auto;
+  display: block;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+}

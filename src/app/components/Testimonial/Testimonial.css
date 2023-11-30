@@ -1,0 +1,126 @@
+.div-text-testi h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: rgb(71, 68, 68);
+  text-align: center; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 2px; /* Add letter spacing */
+  padding: 60px 260px;
+  padding-top: 150px;
+
+  transition: background-color 0.3s, color 0.3s;
+}
+.span-text-blue {
+  color: #3498db;
+  font-weight: 900;
+  font-size: 3.6;
+}
+.testimonial-container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2f2fd;
+}
+.testimonial {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+  /* background-color: #fff; */
+}
+.testimonial .image {
+  height: 170px;
+  width: 170px;
+  background-color: linear-gradient(
+    rgba(91, 82, 82, 0.5),
+    rgba(128, 128, 128, 0.5)
+  );
+  object-fit: cover;
+  border-radius: 50%;
+}
+.testimonial .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.slide p {
+  font-weight: 500;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  padding: 0 100px;
+  text-align: center;
+  /* font-size: 14px; */
+  color: rgb(76, 76, 76);
+}
+.slide .qoute-icon {
+  font-size: 30px;
+  color: #4070f4;
+}
+.slide .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details .name {
+  color: rgb(71, 68, 68);
+  font-weight: 900;
+  text-align: center; /* Center-align the text */
+  font-weight: 900; /* Apply bold font weight */
+  letter-spacing: 1px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+.details .job {
+  color: rgb(71, 68, 68);
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center; /* Center-align the text */
+  letter-spacing: 1px; /* Add letter spacing */
+  padding: 10px 0; /* Add padding to text */
+}
+
+@media screen and (max-width: 768px) {
+  .slide p {
+    padding: 0 20px;
+  }
+  .div-text-testi {
+    padding-top: 300px;
+  }
+  .testimonial-container {
+    height: 80vh;
+  }
+  .div-text-testi h1 {
+    padding: 50px 0;
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 420px) {
+  .div-text-testi {
+    /* background-color: red; */
+    width: 98%;
+  }
+  .div-text-testi h1 {
+    width: 98%;
+    text-align: center;
+  }
+  .testimonial-container {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .testimonial {
+    width: 100%;
+    text-align: center;
+
+  }
+  .mySwiper{
+    /* background-color: yellow; */
+    width: 100%;
+  }
+ 
+}

@@ -1,0 +1,222 @@
+/* TutorHiringForm.css */
+.tutor-form-div {
+  height: 300vh;
+  width: 100%;
+  background-color: rgb(199, 218, 236);
+  padding: 100px 0;
+}
+/* Container */
+.tutor-form-container {
+  padding-top: 100px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form */
+.tutor-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section Headers */
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  font-size: 18px;
+  color: #444;
+}
+
+/* Inputs, Textarea, Select */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="checkbox"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Placeholder text */
+::placeholder {
+  color: #b7b4b4;
+  font-size: 14px;
+}
+
+/* Submit button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Checkboxes and labels */
+label.checkbox-label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Signature and Date */
+.signature-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signature-section input[type="text"],
+.signature-section input[type="date"] {
+  width: 45%;
+  padding: 10px;
+}
+
+/* Emergency Contact Information */
+.emergency-section {
+  margin-top: 20px;
+}
+
+/* Referral/Discount Information */
+.referral-section {
+  margin-top: 20px;
+}
+
+/* Preferred Communication Method */
+.communication-section {
+  margin-top: 20px;
+}
+/* Custom select styles */
+.custom-select {
+  appearance: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+/* Style the dropdown arrow */
+.custom-select::after {
+  content: "\25BC"; /* Unicode for down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+/* Style the options */
+.custom-select option {
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+}
+
+/* Style the hover effect for options */
+.custom-select option:hover {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Style the selected option */
+.custom-select option:checked {
+  background-color: #007bff;
+  color: #fff;
+}
+/* Custom Alert Styles */
+.custom-alert {
+  background-color: #f8d7da; /* Red background color */
+  color: #721c24; /* Text color */
+  padding: 15px; /* Padding around the content */
+  border: 1px solid #f5c6cb; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 20px; /* Margin at the bottom to separate alerts */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+/* Success Alert */
+.custom-alert.success {
+  background-color: #d4edda; /* Green background color for success */
+  color: #155724; /* Text color for success */
+  border-color: #c3e6cb; /* Border color for success */
+}
+
+/* Warning Alert */
+.custom-alert.warning {
+  background-color: #fff3cd; /* Yellow background color for warning */
+  color: #856404; /* Text color for warning */
+  border-color: #ffeeba; /* Border color for warning */
+}
+
+/* Info Alert */
+.custom-alert.info {
+  background-color: #d1ecf1; /* Light blue background color for info */
+  color: #0c5460; /* Text color for info */
+  border-color: #bee5eb; /* Border color for info */
+}
+@media (max-width: 767px) {
+  .tutor-form-div {
+    width: 100%;
+    height: 250vh;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="checkbox"],
+  textarea,
+  select {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 18px;
+  color: #444;
+}
+}
+@media (max-height:767px) and (max-width:430px){
+  .tutor-form-div {
+    height: 300vh;
+    padding-bottom: 200px;
+  }
+}
